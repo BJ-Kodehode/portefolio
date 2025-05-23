@@ -2,27 +2,27 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-center p-4 bg-gray-800 text-white">
+    <header className="flex justify-between items-center px-20 p-2 bg-gray-800 text-white">
       {/* Left side: Home button */}
       <div>
         <Link href="/">
-          <a className="text-lg font-bold">Bernt Johansen</a>
+          Bernt Johansen
         </Link>
       </div>
 
       {/* Right side: Navigation links */}
       <nav className="flex space-x-4">
         <Link href="/">
-          <a className="hover:underline">Hjem</a>
+          Hjem
         </Link>
         <Link href="/about">
-          <a className="hover:underline">Om meg</a>
+          Om meg
         </Link>
         <Link href="/projects">
-          <a className="hover:underline">Prosjekter</a>
+          Prosjekter
         </Link>
         <Link href="/contact">
-          <a className="hover:underline">Kontakt meg</a>
+          Kontakt meg
         </Link>
       </nav>
     </header>
