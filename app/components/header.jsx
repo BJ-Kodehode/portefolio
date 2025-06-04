@@ -15,7 +15,7 @@ const Header = () => {
         <Link href="/">
           Hjem
         </Link>
-        <Link href="/about">
+        <Link href="/#about">
           Om meg
         </Link>
         <Link href="/projects">

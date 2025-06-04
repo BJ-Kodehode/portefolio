@@ -41,3 +41,8 @@ export default function Home() {
     </div>
   );
 }
+
+
+// <aBOUT/> legg den til i components mappen som en tsx fil
+// <pROJECTS/> legg den til i components mappen som en tsx fil
+// <cONTACT/> legg den til i components mappen som en tsx fil
